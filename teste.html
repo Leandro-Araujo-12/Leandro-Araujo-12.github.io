@@ -4,14 +4,12 @@
 
 <h2>Date Field Restrictions</h2>
 
-<p>Use the min and max attributes to add restrictions to dates:</p>
-
 <form action="/seg.html">
-  <label for="datemin">Enter a date after 2000-01-01:</label>
-  <input type="date" id="datemin" name="datemin" min="2000-01-02"><br><br>
+  <label for="datemin">Data de início (após 31-12-2024):</label>
+  <input type="date" id="datemin" name="datemin" min="2025-01-01"><br><br>
 
-  <label for="datemax">Enter a date before 1980-01-01:</label>
-  <input type="date" id="datemax" name="datemax" max="1979-12-31"><br><br>
+  <label for="datemax">Data de nascimento (antes de 01-01-2000):</label>
+  <input type="date" id="datemax" name="datemax" max="1999-12-31"><br><br>
   
   <input type="submit" value="Submit">
 </form>
